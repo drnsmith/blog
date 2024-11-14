@@ -1,0 +1,4 @@
+[submodule "drnsmithblog/public"]
+	path = drnsmithblog/public
+	url = https://github.com/drnsmith/drnsmith.github.io.git
+	branch = main

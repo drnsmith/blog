@@ -1,0 +1,53 @@
+baseURL = 'https://drnsmith.github.io/'  # Replace with your actual URL when deploying
+languageCode = 'en-us'
+title = 'Natasha Smith Portfolio'
+theme = 'hugo-theme-stack'
+
+[params]
+  description = "Exploring the intersection of data, technology, and humanity"
+  author = { name = "Natasha Smith", email = "drnatashasth@gmail.com" }
+  showReadingTime = true
+  useHLJS = true  # Enable syntax highlighting
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/home/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 5
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 6
+
+[social]
+  github = "https://github.com/drnsmith"
+  linkedin = "https://www.linkedin.com/in/drnsmith/"
+  medium = "https://medium.com/@drnatashasth"
+  email = "drnatashasth@gmail.com" # Update email here
+
+[markup]
+  [markup.highlight]
+    style = "github"
+    lineNos = true
+
